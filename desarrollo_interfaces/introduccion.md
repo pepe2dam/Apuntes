@@ -31,23 +31,23 @@ La creación de la documentación exige de un programador la necesidad de tener un
 permita realizar una serie de fases que facilite la comprensión de cómo se ha hecho la aplicación.
 
 Las fases de construcción de un programa pueden contener los siguientes elementos.
-	1. Introducción. Se produce una descripción de la empresa y de los estamentos que han intervenido. En un
-	Cuaderno de carga, la introducción puede contener elementos como:
-		· Con qué SW se ha hecho la aplicación
-		· Programas y versiones de estos.
-		· Guia de instalación y desinstalación.
-	
-	2. Definición o planteamiento del problema. Se trata de qué es lo que hace nuestra aplicación explicando
-	Qué es lo que queremos obtener. Si es necesario, debemos indicar de qué datos vamos a partir y qué datos
-	queremos obtener. En definitiva, qué es lo que hace esa aplicación.
+1. Introducción. Se produce una descripción de la empresa y de los estamentos que han intervenido. En un
+Cuaderno de carga, la introducción puede contener elementos como:
+	· Con qué SW se ha hecho la aplicación
+	· Programas y versiones de estos.
+	· Guia de instalación y desinstalación.
 
-	3. Análisis del problema.
-	Una vez planteado qué es lo que se quiere hacer, el programador tiene que indicar cómo lo ha de hacer.
-	Para ello es necesario realizar un estudio exhaustivo de todos los elementos que van a intervenir. Estos
-	elementos se pueden dividir en 3 categorías:
+2. Definición o planteamiento del problema. Se trata de qué es lo que hace nuestra aplicación explicando
+Qué es lo que queremos obtener. Si es necesario, debemos indicar de qué datos vamos a partir y qué datos
+queremos obtener. En definitiva, qué es lo que hace esa aplicación.
 
-		* Diagramas de proceso. Hacen referencia al análisis de todos los elementos que intervienen en el
-		Proyecto de forma gráfica, utilizando para ello todas las herramientas existentes.
-		* Diseño de registros y mensajes. Consiste en analizar, si los hubiera, todos los ficheros utilizados,
-		indicando sus registros, nombre de campos, etc. Además, se deberán incluir todas las
-		* c
+3. Análisis del problema.
+Una vez planteado qué es lo que se quiere hacer, el programador tiene que indicar cómo lo ha de hacer.
+Para ello es necesario realizar un estudio exhaustivo de todos los elementos que van a intervenir. Estos
+elementos se pueden dividir en 3 categorías:
+
+	* Diagramas de proceso. Hacen referencia al análisis de todos los elementos que intervienen en el
+	Proyecto de forma gráfica, utilizando para ello todas las herramientas existentes.
+	* Diseño de registros y mensajes. Consiste en analizar, si los hubiera, todos los ficheros utilizados,
+	indicando sus registros, nombre de campos, etc. Además, se deberán incluir todas las
+	* c
