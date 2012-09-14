@@ -20,7 +20,7 @@ con fines lucrativos y con responsabilidad"
 
 Existen diferentes tipologías de empresas:
 
--Según la forma jurídica:
+* Según la forma jurídica:
 	* Comerciantes o empresarios individuales:
 	que son aquellos empresarios que jurídicamente responden con sus propios bienes ante
 	los compromisos de la empresa.
@@ -28,7 +28,7 @@ Existen diferentes tipologías de empresas:
 	* Sociedades mercantiles:
 	Son empresas que se gestionan mediante sociedades anónimas o sociedades limitadas donde la responsabilidad está únicamente en el dinero invertido.
 
--según el sector:
+* según el sector:
 	*primario
 	producción y manejo de materias primas
 
@@ -38,7 +38,7 @@ Existen diferentes tipologías de empresas:
 	*terciario
 	Servicios
 
--Según el grado de participación:
+* Según el grado de participación:
 	* Pública:
 	Gestionada por un organismo oficial
 
@@ -48,7 +48,7 @@ Existen diferentes tipologías de empresas:
 	* Mixta:
 	Empresas gestionadas con capitales de ambos tipos.
 
-- Tamaño:
+* Tamaño:
 	* Pequeñas y medianas
 
 	* Grandes empresas.
