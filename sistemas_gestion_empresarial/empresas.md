@@ -29,13 +29,13 @@ Existen diferentes tipologías de empresas:
 	Son empresas que se gestionan mediante sociedades anónimas o sociedades limitadas donde la responsabilidad está únicamente en el dinero invertido.
 
 * según el sector:
-	*primario
+	* primario
 	producción y manejo de materias primas
 
-	*secundario
+	* secundario
 	Empresas que elaboran productos con las materias primas
 
-	*terciario
+	* terciario
 	Servicios
 
 * Según el grado de participación:
