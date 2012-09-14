@@ -48,5 +48,6 @@ Las fases de construcción de un programa pueden contener los siguientes elemento
 
 		* Diagramas de proceso. Hacen referencia al análisis de todos los elementos que intervienen en el
 		Proyecto de forma gráfica, utilizando para ello todas las herramientas existentes.
-		* c
+		* Diseño de registros y mensajes. Consiste en analizar, si los hubiera, todos los ficheros utilizados,
+		indicando sus registros, nombre de campos, etc. Además, se deberán incluir todas las
 		* c
