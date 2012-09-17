@@ -153,12 +153,14 @@ o áreas funcionales.
 Estas divisiones dan como resultado una serie de organigramas que tienen como finalidad organizar esas divisiones de trabajo. Por tanto un organigrama es la representación 
 gráfica de cómo está organizado un departamento o una división. Existen 3 tipos de organigramas:
 
-1. horizontal.
+1. Horizontal.
 	consiste en plasmar gráficamente todas las divisiones de trabajo de una empresa, indicándolas de izquierda a derecha.
 
-2. 
+2. Vertical.
+	De arriba a abajo.
 
-3. 
+3. Circular.
+	En el centro se encuentra el máximo grado y progresivamente y hacia el exterior, los demás grados se ubican en círculos concéntricos.
 
 
 
