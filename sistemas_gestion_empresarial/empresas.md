@@ -58,7 +58,6 @@ Existen diferentes tipologías de empresas:
 LA DIRECCIÓN DE LA EMPRESA:
 ---------------------------
 Dirigir una empresa supone tomar decisiones constantemente con la intención de conseguir unos fines concretos. Esta toma de decisiones puede ser de dos tipos:
-
 * Para empresas con una dirección centralizada.
 	Aquellas empresas cuya toma de decisiones es ejecutada por la máxima jerarquía de la empresa. Lo que se considera dirección centralizada va enfocado a PYMES.
 
@@ -86,7 +85,6 @@ esos fines. Podemos destacar 4 funciones:
 
 1. Planificar:
 	Consiste en fijar los fines que se desean alcanzar en el futuro, indicando cuál es el mejor camino para hacerlo. Debe responder a preguntas como
-
 	* ¿En qué situacion se encuentra la empresa?
 	* ¿Donde queremos llegar?
 	* ¿Como conseguirlo?
@@ -100,7 +98,6 @@ esos fines. Podemos destacar 4 funciones:
 
 4. Controlar:
 	Comprobar que los datos obtenidos corresponden con los planificados, corrigiendo y desviando todas las acciones necesarias. 
-	
 	* ¿Donde estamos?
 	* ¿Donde deberíamos estar?
 	* ¿Hay que corregir algo?
