@@ -104,7 +104,7 @@ Se basa en un minucioso examen de los procedimientos para verificar:
 	1.3. salida de datos adecuada.
 
 	Tiene una serie de pruebas:
-	* __Prueba de camino básico__
+	* __Prueba de camino básico.__
 	Se garantiza que la presente aplicación se ha ejecutado totalmente al menos una vez.
 
 	* __Prueba de estructura de control__
@@ -128,26 +128,26 @@ Se basa en un minucioso examen de los procedimientos para verificar:
 
 2. __Técnica de la caja negra.__
 
-Se encarga de buscar errores en:
-2.1. __Errores de interfaz__
-2.2. __Errores en las estructuras__
-2.3. __Errores de acceso a la db__
-2.4. __Errores de rendimiento__
-2.5. __Errores al iniciar y terminar el programa__
+	Se encarga de buscar errores en:
+	2.1. __Errores de interfaz__
+	2.2. __Errores en las estructuras__
+	2.3. __Errores de acceso a la db__
+	2.4. __Errores de rendimiento__
+	2.5. __Errores al iniciar y terminar el programa__
 
-La caja negra tiene una serie de técnicas:
+	La caja negra tiene una serie de técnicas:
 
-* __Partición equivalente__:
-	Consiste en hacer un estudio detallado de todos los valores límite de todos los datos que intervienen en la aplicación.
+	* __Partición equivalente__:
+		Consiste en hacer un estudio detallado de todos los valores límite de todos los datos que intervienen en la aplicación.
 
-* __Análisis de valores límite__:
-	Consiste en analizar todos los valores límite de todas las estructuras utilizadas.
+	* __Análisis de valores límite__:
+		Consiste en analizar todos los valores límite de todas las estructuras utilizadas.
 
-* __Prueba de comparación__:
-	Ejecutar nuestra aplicación en diferentes ordenadores con diferentes características con la intención de quie los resultados
-	sean los mismos. Se denomina también software redundante.
+	* __Prueba de comparación__:
+		Ejecutar nuestra aplicación en diferentes ordenadores con diferentes características con la intención de quie los resultados
+		sean los mismos. Se denomina también software redundante.
 
 
 6. Fase de documentación
 ------------------------
-Consiste en recopilar toda la información del proyecto preparándola para ser archivada.
+	Consiste en recopilar toda la información del proyecto preparándola para ser archivada.
