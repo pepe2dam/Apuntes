@@ -1,9 +1,9 @@
 Estilos de programación
 =======================
 
-* Programacion secuencial
-* programacion estructurada
-* POO
+* __Programacion secuencial__
+* __programacion estructurada__
+* __POO__
 
 Esta evolucion viene por el objetivo de que el usuario pueda usar una aplicacion para obtener
 determinado objetivo.
@@ -14,9 +14,9 @@ programas de software.
 Para que un programa pueda ser considerada como bueno debe cumplir una serie de requisitos. Si no
 los cumple es un mal programa:
 
-1. Que funcione.
-2. No debe tener dificultades.
-3. Debe estar bien documentado. 
+1. __Que funcione.__
+2. __No debe tener dificultades.__
+3. __Debe estar bien documentado.__
 	La documentación de una aplicación es uno de los elementos más impor
 	tantes del producto, ya que permite realizar futuras actualizaciones de forma cómoda y rápida.
 	Existen dos tipos de documentación:
@@ -25,7 +25,7 @@ los cumple es un mal programa:
 		· Cuaderno de carga: Dirigida al programador, es un documento que contendrá todo lo relacionado con la aplicación.
 		· Manual de usuario: De forma didáctica, el usuario debe entender el manejo de la aplicación.
 	2.2. Interna. Hace referencia a comentar código.
-4. Debe ser eficiente.	
+4. __Debe ser eficiente.__
 
 La creación de la documentación exige de un programador la necesidad de tener una  estructura planificada que 
 permita realizar una serie de fases que facilite la comprensión de cómo se ha hecho la aplicación.
@@ -57,11 +57,11 @@ queremos obtener. En definitiva, qué es lo que hace esa aplicación.
 Una vez planteado qué es lo que se quiere hacer, el programador tiene que indicar cómo lo ha de hacer.
 Para ello es necesario realizar un estudio exhaustivo de todos los elementos que van a intervenir. Estos
 elementos se pueden dividir en 3 categorías:
-	* Diagramas de proceso. Hacen referencia al análisis de todos los elementos que intervienen en el
+	*__ Diagramas de proceso__. Hacen referencia al análisis de todos los elementos que intervienen en el
 	Proyecto de forma gráfica, utilizando para ello todas las herramientas existentes.
-	* Diseño de registros y mensajes. Consiste en analizar, si los hubiera, todos los ficheros utilizados,
+	*__ Diseño de registros y mensajes__. Consiste en analizar, si los hubiera, todos los ficheros utilizados,
 	indicando sus registros, nombre de campos, etc. También hay que incñuir los mensajes utilizados.
-	* Condición/es para la solución. Cuando tenemos claro qué es lo que hay que hacer, cuando analizamos qué
+	*__ Condición/es para la solución__. Cuando tenemos claro qué es lo que hay que hacer, cuando analizamos qué
 	herramientas o estructuras vamos a necesitar para resolver el problema, es imprescindible redactar cómo
 	vamos a solucionar el problema. Si el problema tiene más de una solución se deberán plantear todas ellas, 
 	optando por cuál es la solución más óptima.
@@ -91,22 +91,22 @@ buscar posibles errores.
 una serie de técnicas que pueden ayudar al juego de ensayos, controlando todos los aspectos de la programación.
 Éstas técnicas o conjunto de pruebas reciben dos nombres:
 
-1. Técnica de la caja blanca.
+1. __Técnica de la caja blanca.__
 Se basa en un minucioso examen de los procedimientos para verificar:
 	1. funciones y procedimientos funcionan correctamente.
 	2. que la entrada de datos es adecuada. 
 	3. salida de datos adecuada.
 
 	Tiene una serie de pruebas:
-	* Prueba de camino básico.
+	* __Prueba de camino básico.__
 		Se garantiza que la presente aplicación se ha ejecutado totalmente al menos una vez.
 
-	* Prueba de estructura de control.
+	* __Prueba de estructura de control.__
 		consiste en realizar pruebas que garanticen el buen uso de las estructuras condicionales, bucles y flujo de datos.
 	
 		Consiste en hacer un examen exhaustivo de todas las estructuras de control. Para ello habrá que distinguir entre
 		bucles simples y bucles anidados.
-			* Bucles simples:
+			* __Bucles simples:__
 			Analizamos todos los bucles simples tomando nota de todos los resultados.
 				1. Ejecutamos saltándonos la estructura repetitiva.
 				2. Ejecutar sólo 1 vez la estructura repetitiva.
@@ -114,17 +114,22 @@ Se basa en un minucioso examen de los procedimientos para verificar:
 				4. Ejecutar pasando n-1 veces por el bucle, siendo n el límite superior.
 				5. Ejecutar completamente el bucle.
 
-			* Bucles anidados.
+			* __Bucles anidados.__
 				1. Comenzar con el bucle más interno y con el valor mínimo de los demás, analizando el resultado.
 				2. Progresar hacia fuera en los bucles.
 				3. Probar todos los bucles para observar si se obtiene el rendimiento adecuado.
 
 
-2. Técnica de la caja negra.
+2. __Técnica de la caja negra.__
 
 Se encarga de buscar errores en:
-* errores de interfaz
-* Errores en las estructuras
-* Errores de acceso a la db
-* Errores de rendimiento
+	1. __Errores de interfaz__
+	2. __Errores en las estructuras__
+	3. __Errores de acceso a la db__
+	4. __Errores de rendimiento.__
+	5. __Errores al iniciar y terminar el programa.__
 
+La caja negra tiene una serie de técnicas:
+
+	*__Partición equivalente__:
+	Consiste en hacer un estudio detallado de todos los valores límite de todos los datos que intervienen en la aplicación
