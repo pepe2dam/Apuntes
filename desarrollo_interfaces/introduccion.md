@@ -71,6 +71,8 @@ elementos se pueden dividir en 3 categorías:
 ------------------------------------------
 
 * Organigrama
+Esquema de lo que vamos a hacer
 
 * Codificación
+Plasmar en código el organigrama
 
