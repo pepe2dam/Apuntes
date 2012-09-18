@@ -129,11 +129,11 @@ Se basa en un minucioso examen de los procedimientos para verificar:
 2. __Técnica de la caja negra.__
 
 Se encarga de buscar errores en:
-1. __Errores de interfaz__
-2. __Errores en las estructuras__
-3. __Errores de acceso a la db__
-4. __Errores de rendimiento.__
-5. __Errores al iniciar y terminar el programa.__
+2.1. __Errores de interfaz__
+2.2. __Errores en las estructuras__
+2.3. __Errores de acceso a la db__
+2.4. __Errores de rendimiento.__
+2.5. __Errores al iniciar y terminar el programa.__
 
 La caja negra tiene una serie de técnicas:
 
