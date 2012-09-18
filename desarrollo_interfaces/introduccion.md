@@ -104,26 +104,26 @@ Se basa en un minucioso examen de los procedimientos para verificar:
 	1.3. salida de datos adecuada.
 
 	Tiene una serie de pruebas:
-	* __Prueba de camino básico.__
-		Se garantiza que la presente aplicación se ha ejecutado totalmente al menos una vez.
+	* __Prueba de camino básico__
+	Se garantiza que la presente aplicación se ha ejecutado totalmente al menos una vez.
 
-	* __Prueba de estructura de control.__
-		consiste en realizar pruebas que garanticen el buen uso de las estructuras condicionales, bucles y flujo de datos.
+	* __Prueba de estructura de control__
+	consiste en realizar pruebas que garanticen el buen uso de las estructuras condicionales, bucles y flujo de datos.
 	
-		Consiste en hacer un examen exhaustivo de todas las estructuras de control. Para ello habrá que distinguir entre
-		bucles simples y bucles anidados.
-			* __Bucles simples:__
-			Analizamos todos los bucles simples tomando nota de todos los resultados.
-				* Ejecutamos saltándonos la estructura repetitiva.
-				* Ejecutar sólo 1 vez la estructura repetitiva.
-				* Ejecutar pasando 2 veces por el bucle.
-				* Ejecutar pasando n-1 veces por el bucle, siendo n el límite superior.
-				* Ejecutar completamente el bucle.
+	Consiste en hacer un examen exhaustivo de todas las estructuras de control. Para ello habrá que distinguir entre
+	bucles simples y bucles anidados.
+		* __Bucles simples__
+		Analizamos todos los bucles simples tomando nota de todos los resultados.
+			* Ejecutamos saltándonos la estructura repetitiva.
+			* Ejecutar sólo 1 vez la estructura repetitiva.
+			* Ejecutar pasando 2 veces por el bucle.
+			* Ejecutar pasando n-1 veces por el bucle, siendo n el límite superior.
+			* Ejecutar completamente el bucle.
 
-			* __Bucles anidados.__
-				* Comenzar con el bucle más interno y con el valor mínimo de los demás, analizando el resultado.
-				* Progresar hacia fuera en los bucles.
-				* Probar todos los bucles para observar si se obtiene el rendimiento adecuado.
+		* __Bucles anidados__
+			* Comenzar con el bucle más interno y con el valor mínimo de los demás, analizando el resultado.
+			* Progresar hacia fuera en los bucles.
+			* Probar todos los bucles para observar si se obtiene el rendimiento adecuado.
 
 
 2. __Técnica de la caja negra.__
@@ -132,8 +132,8 @@ Se encarga de buscar errores en:
 2.1. __Errores de interfaz__
 2.2. __Errores en las estructuras__
 2.3. __Errores de acceso a la db__
-2.4. __Errores de rendimiento.__
-2.5. __Errores al iniciar y terminar el programa.__
+2.4. __Errores de rendimiento__
+2.5. __Errores al iniciar y terminar el programa__
 
 La caja negra tiene una serie de técnicas:
 
