@@ -58,19 +58,19 @@ Una vez planteado qué es lo que se quiere hacer, el programador tiene que indica
 Para ello es necesario realizar un estudio exhaustivo de todos los elementos que van a intervenir. Estos
 elementos se pueden dividir en 3 categorías:
 
-	* __Diagramas de proceso__. 
-	Hacen referencia al análisis de todos los elementos que intervienen en el
-	Proyecto de forma gráfica, utilizando para ello todas las herramientas existentes.
+* __Diagramas de proceso__. 
+Hacen referencia al análisis de todos los elementos que intervienen en el
+Proyecto de forma gráfica, utilizando para ello todas las herramientas existentes.
 		
-	* __Diseño de registros y mensajes__. 
-	Consiste en analizar, si los hubiera, todos los ficheros utilizados,
-	indicando sus registros, nombre de campos, etc. También hay que incñuir los mensajes utilizados.
+* __Diseño de registros y mensajes__. 
+Consiste en analizar, si los hubiera, todos los ficheros utilizados,
+indicando sus registros, nombre de campos, etc. También hay que incñuir los mensajes utilizados.
 	
-	* __Condición/es para la solución__. 
-	Cuando tenemos claro qué es lo que hay que hacer, cuando analizamos qué
-	herramientas o estructuras vamos a necesitar para resolver el problema, es imprescindible redactar cómo
-	vamos a solucionar el problema. Si el problema tiene más de una solución se deberán plantear todas ellas, 
-	optando por cuál es la solución más óptima.
+* __Condición/es para la solución__. 
+Cuando tenemos claro qué es lo que hay que hacer, cuando analizamos qué
+herramientas o estructuras vamos a necesitar para resolver el problema, es imprescindible redactar cómo
+vamos a solucionar el problema. Si el problema tiene más de una solución se deberán plantear todas ellas, 
+optando por cuál es la solución más óptima.
 
 
 4. Programación a la solución del problema
@@ -137,5 +137,11 @@ Se encarga de buscar errores en:
 
 La caja negra tiene una serie de técnicas:
 
-	*__Partición equivalente__:
-	Consiste en hacer un estudio detallado de todos los valores límite de todos los datos que intervienen en la aplicación
+*__Partición equivalente__:
+Consiste en hacer un estudio detallado de todos los valores límite de todos los datos que intervienen en la aplicación.
+
+* Análisis de valores límite.
+Consiste en analizar todos los valores límite de todas las estructuras utilizadas.
+
+
+	
