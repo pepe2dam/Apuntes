@@ -138,10 +138,11 @@ Se encarga de buscar errores en:
 La caja negra tiene una serie de técnicas:
 
 *__Partición equivalente__:
-Consiste en hacer un estudio detallado de todos los valores límite de todos los datos que intervienen en la aplicación.
+	Consiste en hacer un estudio detallado de todos los valores límite de todos los datos que intervienen en la aplicación.
 
-* Análisis de valores límite.
-Consiste en analizar todos los valores límite de todas las estructuras utilizadas.
+* __Análisis de valores límite__:
+	Consiste en analizar todos los valores límite de todas las estructuras utilizadas.
 
-
-	
+* __Prueba de comparación__:
+	Ejecutar nuestra aplicación en diferentes ordenadores con diferentes características con la intención de quie los resultados
+	sean los mismos.
