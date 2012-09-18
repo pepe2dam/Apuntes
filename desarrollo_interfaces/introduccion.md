@@ -137,7 +137,7 @@ Se encarga de buscar errores en:
 
 La caja negra tiene una serie de técnicas:
 
-*__Partición equivalente__:
+* __Partición equivalente__:
 	Consiste en hacer un estudio detallado de todos los valores límite de todos los datos que intervienen en la aplicación.
 
 * __Análisis de valores límite__:
