@@ -127,8 +127,6 @@ Se basa en un minucioso examen de los procedimientos para verificar:
 
 
 2. __Técnica de la caja negra.__
-
-	Se encarga de buscar errores en:
 	2.1. __Errores de interfaz__
 	2.2. __Errores en las estructuras__
 	2.3. __Errores de acceso a la db__
@@ -150,4 +148,17 @@ Se basa en un minucioso examen de los procedimientos para verificar:
 
 6. Fase de documentación
 ------------------------
-	Consiste en recopilar toda la información del proyecto preparándola para ser archivada.
+Consiste en recopilar toda la información del proyecto preparándola para ser archivada.
+
+7. Ideas
+--------
+Aportar ideas al proyecto. 
+
+
+8. Conclusión
+-------------
+Documentar una aplicación es totalmente necesario. Pero son las empresas quienes determinan cómo hacerlo. Por lo tanto, no existe una forma estandarizada 
+de documentación ya que con la intención de ahorrar tiempo y espacio, muchas empresas no obligan a la documentación, o utilizan otras técnicas de documentación
+que evitan una acumulación de papeles en la empresa.
+
+
