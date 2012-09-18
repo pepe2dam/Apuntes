@@ -129,11 +129,11 @@ Se basa en un minucioso examen de los procedimientos para verificar:
 2. __Técnica de la caja negra.__
 
 Se encarga de buscar errores en:
-	1. __Errores de interfaz__
-	2. __Errores en las estructuras__
-	3. __Errores de acceso a la db__
-	4. __Errores de rendimiento.__
-	5. __Errores al iniciar y terminar el programa.__
+1. __Errores de interfaz__
+2. __Errores en las estructuras__
+3. __Errores de acceso a la db__
+4. __Errores de rendimiento.__
+5. __Errores al iniciar y terminar el programa.__
 
 La caja negra tiene una serie de técnicas:
 
@@ -145,4 +145,4 @@ La caja negra tiene una serie de técnicas:
 
 * __Prueba de comparación__:
 	Ejecutar nuestra aplicación en diferentes ordenadores con diferentes características con la intención de quie los resultados
-	sean los mismos.
+	sean los mismos. Se denomina también software redundante.
