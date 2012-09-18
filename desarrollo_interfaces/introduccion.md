@@ -99,9 +99,9 @@ una serie de técnicas que pueden ayudar al juego de ensayos, controlando todos l
 
 1. __Técnica de la caja blanca.__
 Se basa en un minucioso examen de los procedimientos para verificar:
-	1. funciones y procedimientos funcionan correctamente.
-	2. que la entrada de datos es adecuada. 
-	3. salida de datos adecuada.
+	1.1. funciones y procedimientos funcionan correctamente.
+	1.2. que la entrada de datos es adecuada. 
+	1.3. salida de datos adecuada.
 
 	Tiene una serie de pruebas:
 	* __Prueba de camino básico.__
@@ -114,16 +114,16 @@ Se basa en un minucioso examen de los procedimientos para verificar:
 		bucles simples y bucles anidados.
 			* __Bucles simples:__
 			Analizamos todos los bucles simples tomando nota de todos los resultados.
-				1. Ejecutamos saltándonos la estructura repetitiva.
-				2. Ejecutar sólo 1 vez la estructura repetitiva.
-				3. Ejecutar pasando 2 veces por el bucle.
-				4. Ejecutar pasando n-1 veces por el bucle, siendo n el límite superior.
-				5. Ejecutar completamente el bucle.
+				* Ejecutamos saltándonos la estructura repetitiva.
+				* Ejecutar sólo 1 vez la estructura repetitiva.
+				* Ejecutar pasando 2 veces por el bucle.
+				* Ejecutar pasando n-1 veces por el bucle, siendo n el límite superior.
+				* Ejecutar completamente el bucle.
 
 			* __Bucles anidados.__
-				1. Comenzar con el bucle más interno y con el valor mínimo de los demás, analizando el resultado.
-				2. Progresar hacia fuera en los bucles.
-				3. Probar todos los bucles para observar si se obtiene el rendimiento adecuado.
+				* Comenzar con el bucle más interno y con el valor mínimo de los demás, analizando el resultado.
+				* Progresar hacia fuera en los bucles.
+				* Probar todos los bucles para observar si se obtiene el rendimiento adecuado.
 
 
 2. __Técnica de la caja negra.__
@@ -146,3 +146,8 @@ La caja negra tiene una serie de técnicas:
 * __Prueba de comparación__:
 	Ejecutar nuestra aplicación en diferentes ordenadores con diferentes características con la intención de quie los resultados
 	sean los mismos. Se denomina también software redundante.
+
+
+6. Fase de documentación
+------------------------
+Consiste en recopilar toda la información del proyecto preparándola para ser archivada.
