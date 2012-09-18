@@ -57,6 +57,7 @@ queremos obtener. En definitiva, qué es lo que hace esa aplicación.
 Una vez planteado qué es lo que se quiere hacer, el programador tiene que indicar cómo lo ha de hacer.
 Para ello es necesario realizar un estudio exhaustivo de todos los elementos que van a intervenir. Estos
 elementos se pueden dividir en 3 categorías:
+
 	* __Diagramas de proceso__. 
 	Hacen referencia al análisis de todos los elementos que intervienen en el
 	Proyecto de forma gráfica, utilizando para ello todas las herramientas existentes.
