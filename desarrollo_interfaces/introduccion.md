@@ -76,3 +76,55 @@ Esquema de lo que vamos a hacer
 * Codificación
 Plasmar en código el organigrama
 
+
+5. Fase de edición, Puesta a punto y pruebas
+--------------------------------------------
+
+Entendemos por edición la posibilidad de editar mi código fuente con la intención de linkarlo y obtener así
+el código objeto, que es lo que entiende el ordenador.
+
+El paso siguiente es realizar la puesta a punto junto con un juego de pruebas, que recibe el nombre de juego
+de ensayo, y que consiste en someter a nuestro programa fuente a una serie de situaciones con la intención de
+buscar posibles errores.
+
+Éste juego de ensayo ha de quedar perfectamente preparado para buscar, en todos los aspectos, errores. Existe
+una serie de técnicas que pueden ayudar al juego de ensayos, controlando todos los aspectos de la programación.
+Éstas técnicas o conjunto de pruebas reciben dos nombres:
+
+1. Técnica de la caja blanca.
+Se basa en un minucioso examen de los procedimientos para verificar:
+	1. funciones y procedimientos funcionan correctamente.
+	2. que la entrada de datos es adecuada. 
+	3. salida de datos adecuada.
+
+	Tiene una serie de pruebas:
+	* Prueba de camino básico.
+		Se garantiza que la presente aplicación se ha ejecutado totalmente al menos una vez.
+
+	* Prueba de estructura de control.
+		consiste en realizar pruebas que garanticen el buen uso de las estructuras condicionales, bucles y flujo de datos.
+	
+		Consiste en hacer un examen exhaustivo de todas las estructuras de control. Para ello habrá que distinguir entre
+		bucles simples y bucles anidados.
+			* Bucles simples:
+			Analizamos todos los bucles simples tomando nota de todos los resultados.
+				1. Ejecutamos saltándonos la estructura repetitiva.
+				2. Ejecutar sólo 1 vez la estructura repetitiva.
+				3. Ejecutar pasando 2 veces por el bucle.
+				4. Ejecutar pasando n-1 veces por el bucle, siendo n el límite superior.
+				5. Ejecutar completamente el bucle.
+
+			* Bucles anidados.
+				1. Comenzar con el bucle más interno y con el valor mínimo de los demás, analizando el resultado.
+				2. Progresar hacia fuera en los bucles.
+				3. Probar todos los bucles para observar si se obtiene el rendimiento adecuado.
+
+
+2. Técnica de la caja negra.
+
+Se encarga de buscar errores en:
+* errores de interfaz
+* Errores en las estructuras
+* Errores de acceso a la db
+* Errores de rendimiento
+
