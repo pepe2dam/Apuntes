@@ -99,11 +99,13 @@ una serie de técnicas que pueden ayudar al juego de ensayos, controlando todos l
 
 1. __Técnica de la caja blanca.__
 Se basa en un minucioso examen de los procedimientos para verificar:
+
 	1.1. funciones y procedimientos funcionan correctamente.
 	1.2. que la entrada de datos es adecuada. 
 	1.3. salida de datos adecuada.
 
 	Tiene una serie de pruebas:
+
 	* __Prueba de camino básico.__
 	Se garantiza que la presente aplicación se ha ejecutado totalmente al menos una vez.
 
