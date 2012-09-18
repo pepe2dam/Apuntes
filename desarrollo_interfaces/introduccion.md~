@@ -33,9 +33,9 @@ permita realizar una serie de fases que facilite la comprensión de cómo se ha he
 Las fases de construcción de un programa pueden contener los siguientes elementos.
 1. Introducción. Se produce una descripción de la empresa y de los estamentos que han intervenido. En un
 Cuaderno de carga, la introducción puede contener elementos como:
-	* Con qué SW se ha hecho la aplicación
-	* Programas y versiones de estos.
-	* Guia de instalación y desinstalación.
+	· Con qué SW se ha hecho la aplicación
+	· Programas y versiones de estos.
+	· Guia de instalación y desinstalación.
 
 2. Definición o planteamiento del problema. Se trata de qué es lo que hace nuestra aplicación explicando
 Qué es lo que queremos obtener. Si es necesario, debemos indicar de qué datos vamos a partir y qué datos
