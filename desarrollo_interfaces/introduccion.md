@@ -162,5 +162,3 @@ Aportar ideas al proyecto.
 Documentar una aplicación es totalmente necesario. Pero son las empresas quienes determinan cómo hacerlo. Por lo tanto, no existe una forma estandarizada 
 de documentación ya que con la intención de ahorrar tiempo y espacio, muchas empresas no obligan a la documentación, o utilizan otras técnicas de documentación
 que evitan una acumulación de papeles en la empresa.
-
-
