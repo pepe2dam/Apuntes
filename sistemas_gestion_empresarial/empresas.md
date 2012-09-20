@@ -200,52 +200,31 @@ TIPOS DE DIVISIONES DE LA EMPRESA
 Las empresas, con la intención de agilizar su actividad, tienden a crear subdivi-
 siones de la empresa, siendo cada una de ellas de gestion independiente pero con 
 la misma marca. Podemos destacar los siguientes tipos:
+
 * __División funcional__
 Es la división más sencilla. Es la adoptada por la mayoría de  las PYMES y consis-
 te en establecer una estructura basada en la especialización, según las tareas
 a realizar en la empresa. La división funcional evita en la mayoría de los casos
 el que ciertos servicios sean contratados en el exterior, y deberá existir una 
 persona encargada y especializada en cada división.
+
 * __División por Productos__
 Cuando una empresa gestiona la fabricación y comercialización de diferentes productos
 que están enfocados a diferentes sectores industriales, puede tener una división
 por productos. Cada división es independiente de las demás, y todas funcionan bajo
-la misma marca y el mismo logo. Está pensada para grandes empresas.
-*
-*
+la misma marca y el mismo logo. Está pensada para grandes empresas. Cada una de
+estas divisiones por productos tiene una división funcional.
 
+* __División por mercados__
+Enfocado también a las grandes empresas, consiste en la división de su actividad
+y producción según criterios, como pueden ser:
+	* Mercado jóven/jubilados.
+	* zona geográficas (Mercado europeo, asiático...)
+	* canales de distribución (acceso solo por mar, por tierra...)
 
+* __División mixta__
+Se da en empresas que adoptan más de un tipo de división, y que por lo general
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* __Unidades de estrategia de negocios__
+Se trata de divisiones que son esporádicas, fluctuantes, que simplemente buscan
+una estrategia individualizada a ciertas situaciones. 
