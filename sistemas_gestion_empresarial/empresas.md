@@ -197,12 +197,12 @@ los demás grados se ubican en círculos concéntricos.
 
 TIPOS DE DIVISIONES DE LA EMPRESA
 ---------------------------------
-Las empresas, con la intención de agilizar su actividad, tienden a crear subdivi-
+Las empresas, con la intención de agilizar su actividad, tienden a crear subdivi
 siones de la empresa, siendo cada una de ellas de gestion independiente pero con 
 la misma marca. Podemos destacar los siguientes tipos:
 
 * __División funcional__
-Es la división más sencilla. Es la adoptada por la mayoría de  las PYMES y consis-
+Es la división más sencilla. Es la adoptada por la mayoría de  las PYMES y consis
 te en establecer una estructura basada en la especialización, según las tareas
 a realizar en la empresa. La división funcional evita en la mayoría de los casos
 el que ciertos servicios sean contratados en el exterior, y deberá existir una 
@@ -228,4 +228,85 @@ Se da en empresas que adoptan más de un tipo de división, y que por lo general
 
 * __Unidades de estrategia de negocios__
 Se trata de divisiones que son esporádicas, fluctuantes, que simplemente buscan
-una estrategia individualizada a ciertas situaciones. 
+una estrategia individualizada a ciertas situaciones.
+
+
+DEPARTAMENTO DE MARKETING
+-------------------------
+Surge como división funcional y tiene como finalidad el analizar, y tomar las de
+cisiones oportunas con respecto a las compra-ventas. Se trata de analizar el por
+qué de los sucesos. Aspectos como:
+* __investigación de mercados__
+* __formas de venta__
+* __formas de distribución__
+* __tipo de cliente__
+	"De él surgen los más grandes cambios que una empresa puede adoptar"
+
+TIPOS DE ESTRUCTURAS ORGANIZACIVAS
+----------------------------------
+Una empresa debe tener una estructura organizativa sólida que evite conflictos 
+entre departamentos o entre trabajadores a la hora de tomar decisiones. Existen
+4 tipos de estructuras organizativas:
+* __Lineal__
+Es la estructura más básica, sencilla y antigua. Está ligada a la pequéña y mediana
+empresa, y consiste en que las decisiones que se toman corresponden a una única
+persona, bien de forma departamental, bien de forma directiva. Tiene como ventaja
+la rapidez en tomar decisiones y la rapidez en que entren en vigor.
+* __Estructura línea o staff__
+Consiste en la existencia de una única autoridad pero con el asesoramiento o 
+consulta de todos los sub-jefes que forman parte de la organización departamental
+o staff. Tiene como bueno la rapidez en la toma de decisiones y el asesoramiento
+por parte de especialistas antes de tomar la decisión.
+* __Comités__
+Se suele dar en organizaciones informales. Consiste en un grupo de personas, 
+generalmente de mayor rango que toma decisiones en lugar de una sola. Este grupo
+de personas se reúnen a modo de comité, donde se exponen criterios, normas... de
+tal manera que, tras una puesta en común se toma una decisión.
+* __Estructura matricial__
+Consiste en que en la organización de la empresa existe una "doble autoridad" por
+cada una de las acciones departamentales aunque sólo una de ellas tiene un 
+caracter determinanete. Los conflictos deben resolverse entre ellos y nunca afectar
+a los trabajadores. Por ejemplo:
+	* cliente - jefe de proyecto
+	* CTO - CE
+
+
+CLASIFICACION DE EMPRESAS
+-------------------------
+Existen en el mundo empresarial gran diversidad de empresas, pero todas han de 
+estar clasificadas. Podemos destacar la siguiente clasificación según una serie 
+de criterios.
+1. __Actividad__
+	* Industriales
+	Son aquellas que se dedican como actividad primordial a la __produccion__ de
+	bienes mediante la transformación y/o estracción de materias primas.
+		* __Extractoras__
+		Son aquellas cuya actividad radica en la estracción de recursos naturales
+		renovables o no. __obtienen materias primas__
+		* __Manufactureras__ 
+		transforman la materia prima en productos terminados, bien para el cliente
+		final, bien como producto intermedio
+		* __Agropecuarias__
+		Se dedican a la explotación agrícola o ganadera.
+
+	* __Comerciales__
+	Son aquellas que hacen de intermediario entre el productor y el consumidor. Se
+	encargan por tanto de la compraventa. Se dividen en 4 tipos:
+		* __Mayoristas__
+		Aquellas que compran a gran escala, a precios inferiores, y distribuyen a
+		otras empresas. 
+		* __Menudeo__
+		Son capaces de vender tanto grandes cantidades (como mayoristas) o en 
+		pequeña cantidad.
+		* __Minoristas__
+		Se dedican a la compra-venta de pequeñas cantidades.
+		* __Comisionistas__
+		Venden mercancías a cambio de comisiones.
+	
+	* __De servicios__
+	Son empresas que brindan servicios a la comunidad. Pueden o no tener fines
+	lucrativos. Podemos destacar:
+		* __De servicio público__
+		Dan un servicio a una gran mayoría de gente. (CYII, EMT...)
+		* __De servicio privado__
+		Es necesario pagar una cuantía por ello
