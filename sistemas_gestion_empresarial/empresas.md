@@ -222,6 +222,7 @@ y producción según criterios, como pueden ser:
 	* zona geográficas (Mercado europeo, asiático...)
 	* canales de distribución (acceso solo por mar, por tierra...)
 
+
 * __División mixta__
 Se da en empresas que adoptan más de un tipo de división, y que por lo general
 
