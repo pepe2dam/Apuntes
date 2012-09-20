@@ -195,6 +195,24 @@ En el centro se encuentra el máximo grado y progresivamente y hacia el exterior,
 los demás grados se ubican en círculos concéntricos.
 
 
+TIPOS DE DIVISIONES DE LA EMPRESA
+---------------------------------
+Las empresas, con la intención de agilizar su actividad, tienden a crear subdivi-
+siones de la empresa, siendo cada una de ellas de gestion independiente pero con 
+la misma marca. Podemos destacar los siguientes tipos:
+* __División funcional__
+Es la división más sencilla. Es la adoptada por la mayoría de  las PYMES y consis-
+te en establecer una estructura basada en la especialización, según las tareas
+a realizar en la empresa. La división funcional evita en la mayoría de los casos
+el que ciertos servicios sean contratados en el exterior, y deberá existir una 
+persona encargada y especializada en cada división.
+* __División por Productos__
+Cuando una empresa gestiona la fabricación y comercialización de diferentes productos
+que están enfocados a diferentes sectores industriales, puede tener una división
+por productos. Cada división es independiente de las demás, y todas funcionan bajo
+la misma marca y el mismo logo. Está pensada para grandes empresas.
+*
+*
 
 
 
