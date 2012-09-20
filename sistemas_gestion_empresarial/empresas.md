@@ -277,36 +277,58 @@ Existen en el mundo empresarial gran diversidad de empresas, pero todas han de
 estar clasificadas. Podemos destacar la siguiente clasificación según una serie 
 de criterios.
 1. __Actividad__
-	* Industriales
-	Son aquellas que se dedican como actividad primordial a la __produccion__ de
-	bienes mediante la transformación y/o estracción de materias primas.
-		* __Extractoras__
-		Son aquellas cuya actividad radica en la estracción de recursos naturales
-		renovables o no. __obtienen materias primas__
-		* __Manufactureras__ 
-		transforman la materia prima en productos terminados, bien para el cliente
-		final, bien como producto intermedio
-		* __Agropecuarias__
-		Se dedican a la explotación agrícola o ganadera.
-
+* Industriales
+Son aquellas que se dedican como actividad primordial a la __produccion__ de
+bienes mediante la transformación y/o estracción de materias primas.
+	* __Extractoras__
+	Son aquellas cuya actividad radica en la estracción de recursos naturales
+	renovables o no. __obtienen materias primas__
+	* __Manufactureras__ 
+	transforman la materia prima en productos terminados, bien para el cliente
+	final, bien como producto intermedio
+	* __Agropecuarias__
+	Se dedican a la explotación agrícola o ganadera.
 	* __Comerciales__
 	Son aquellas que hacen de intermediario entre el productor y el consumidor. Se
 	encargan por tanto de la compraventa. Se dividen en 4 tipos:
-		* __Mayoristas__
-		Aquellas que compran a gran escala, a precios inferiores, y distribuyen a
-		otras empresas. 
-		* __Menudeo__
-		Son capaces de vender tanto grandes cantidades (como mayoristas) o en 
-		pequeña cantidad.
-		* __Minoristas__
-		Se dedican a la compra-venta de pequeñas cantidades.
-		* __Comisionistas__
-		Venden mercancías a cambio de comisiones.
-	
-	* __De servicios__
-	Son empresas que brindan servicios a la comunidad. Pueden o no tener fines
-	lucrativos. Podemos destacar:
-		* __De servicio público__
-		Dan un servicio a una gran mayoría de gente. (CYII, EMT...)
-		* __De servicio privado__
-		Es necesario pagar una cuantía por ello
+	* __Mayoristas__
+	Aquellas que compran a gran escala, a precios inferiores, y distribuyen a
+	otras empresas. 
+	* __Menudeo__
+	Son capaces de vender tanto grandes cantidades (como mayoristas) o en 
+	pequeña cantidad.
+	* __Minoristas__
+	Se dedican a la compra-venta de pequeñas cantidades.
+	* __Comisionistas__
+	Venden mercancías a cambio de comisiones.
+
+* __De servicios__
+Son empresas que brindan servicios a la comunidad. Pueden o no tener fines
+lucrativos. Podemos destacar:
+	* __De servicio público__
+	Dan un servicio a una gran mayoría de gente. (CYII, EMT...)
+	* __De servicio privado__
+	Es necesario pagar una cuantía por ello
+
+
+2. __Capital__
+Según su capital, las empresas pueden ser:
+* __públicas__
+Su capital pertenece al estado y tiene como finalidad el servicio al público.
+Podemos destacar los siguientes tipos:
+	* Centralizadas:
+	Se trata de empresas cuya jerarquía pertenece al gobierno y es éste quien toma
+	decisiones de mando y ejecución. Es necesario disitinguir a nivel nacional y
+	autonómico.
+	* Desconcentradas:
+	son aquellas cuyo nivel de decisión se encuentra lejos de su ubicación aunque
+	el control influya en el lugar donde está radicada la empresa.
+	* Descentralizadas.
+	Son aquellas empresas que tienen un capital estatal pero cuyo personal tiene
+	un régimen jurídico propio, como puede ser el de una comunidad autónoma.
+	* Estatales:
+	pertenecen y están integradas en el propio estado.
+	* Mixtas:
+	Empresas de capital estatal (mayoritario) y capital privado (minoritario)
+
+* __privadas__
