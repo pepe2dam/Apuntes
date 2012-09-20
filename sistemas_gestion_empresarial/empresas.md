@@ -140,9 +140,11 @@ predeterminadas. Esta organización es variable en cuanto a ampliar o no su
 tamaño.
 
 2. Organización informal.
-Consiste en un tipo de empresa que carece de organización, de dirección y que funciona gracias a relaciones informales con otras empresas.
+Consiste en un tipo de empresa que carece de organización, de dirección y que 
+funciona gracias a relaciones informales con otras empresas.
 
-La organización formal debe tener claro una serie de pasos para conseguir sus objetivos.
+La organización formal debe tener claro una serie de pasos para conseguir sus 
+objetivos.
 
 1. Determinar la actividad:
 Indica a qué se va a dedicar la empresa.
@@ -172,20 +174,25 @@ LA DIVISIÓN DEL TRABAJO
 
 Una empresa, para que sea más eficiente tiene la necesidad de dividir sus acciones 
 en grupos más pequeños de trabajo, con la intención de especializarlo, evitando que
-todo el control esté en una persona. Esta distribución de actividades y la agrupación en bloques más o menos homogéneos reciben el nombre de departamentos, divisiones
-o áreas funcionales.
+todo el control esté en una persona. Esta distribución de actividades y la 
+agrupación en bloques más o menos homogéneos reciben el nombre de departamentos,
+divisiones o áreas funcionales.
  
-Estas divisiones dan como resultado una serie de organigramas que tienen como finalidad organizar esas divisiones de trabajo. Por tanto un organigrama es la representación 
-gráfica de cómo está organizado un departamento o una división. Existen 3 tipos de organigramas:
+Estas divisiones dan como resultado una serie de organigramas que tienen como 
+finalidad organizar esas divisiones de trabajo. Por tanto un organigrama es la
+representación gráfica de cómo está organizado un departamento o una división.
+Existen 3 tipos de organigramas:
 
 1. Horizontal.
-	consiste en plasmar gráficamente todas las divisiones de trabajo de una empresa, indicándolas de izquierda a derecha.
+consiste en plasmar gráficamente todas las divisiones de trabajo de una empresa,
+indicándolas de izquierda a derecha.
 
 2. Vertical.
-	De arriba a abajo.
+De arriba a abajo.
 
 3. Circular.
-	En el centro se encuentra el máximo grado y progresivamente y hacia el exterior, los demás grados se ubican en círculos concéntricos.
+En el centro se encuentra el máximo grado y progresivamente y hacia el exterior,
+los demás grados se ubican en círculos concéntricos.
 
 
 
