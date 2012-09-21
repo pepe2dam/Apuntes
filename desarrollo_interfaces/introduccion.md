@@ -5,30 +5,34 @@ Estilos de programación
 * __programacion estructurada__
 * __POO__
 
-Esta evolucion viene por el objetivo de que el usuario pueda usar una aplicacion para obtener
-determinado objetivo.
+Esta evolucion viene por el objetivo de que el usuario pueda usar una aplicacion 
+para obtener determinado objetivo.
 
-Podemos entender estilos de programación los métodos que existen para mejorar la calidad de los
-programas de software.
+Podemos entender estilos de programación los métodos que existen para mejorar la 
+calidad de los programas de software.
 
-Para que un programa pueda ser considerada como bueno debe cumplir una serie de requisitos. Si no
-los cumple es un mal programa:
+Para que un programa pueda ser considerada como bueno debe cumplir una serie de 
+requisitos. Si no los cumple es un mal programa:
 
 1. __Que funcione.__
 2. __No debe tener dificultades.__
 3. __Debe estar bien documentado.__
-	La documentación de una aplicación es uno de los elementos más impor
-	tantes del producto, ya que permite realizar futuras actualizaciones de forma cómoda y rápida.
-	Existen dos tipos de documentación:
+La documentación de una aplicación es uno de los elementos más impor
+tantes del producto, ya que permite realizar futuras actualizaciones de forma 
+cómoda y rápida.
+Existen dos tipos de documentación:
 
-	2.1. Externas. Generalmente, de forma impresa se adjunta al propio proyecto.
-		· Cuaderno de carga: Dirigida al programador, es un documento que contendrá todo lo relacionado con la aplicación.
-		· Manual de usuario: De forma didáctica, el usuario debe entender el manejo de la aplicación.
-	2.2. Interna. Hace referencia a comentar código.
+	3.1. Externas. Generalmente, de forma impresa se adjunta al propio proyecto.
+	Cuaderno de carga: Dirigida al programador, es un documento que contendrá 
+	todo lo relacionado con la aplicación. 
+	Manual de usuario: De forma didáctica, el usuario debe entender el manejo de 
+	la aplicación.
+	3.2. Interna. Hace referencia a comentar código.
 4. __Debe ser eficiente.__
 
-La creación de la documentación exige de un programador la necesidad de tener una  estructura planificada que 
-permita realizar una serie de fases que facilite la comprensión de cómo se ha hecho la aplicación.
+La creación de la documentación exige de un programador la necesidad de tener una  
+estructura planificada que permita realizar una serie de fases que facilite la 
+comprensión de cómo se ha hecho la aplicación.
 
 Las fases de construcción de un programa pueden contener los siguientes elementos.
 
@@ -47,16 +51,18 @@ Cuaderno de carga, la introducción puede contener elementos como:
 ------------------------------------------
 
 Se trata de qué es lo que hace nuestra aplicación explicando
-Qué es lo que queremos obtener. Si es necesario, debemos indicar de qué datos vamos a partir y qué datos
-queremos obtener. En definitiva, qué es lo que hace esa aplicación.
+Qué es lo que queremos obtener. Si es necesario, debemos indicar de qué datos vamos 
+a partir y qué datos queremos obtener. En definitiva, qué es lo que hace esa 
+aplicación.
 
 
 3. Análisis del problema.
 -------------------------
 
-Una vez planteado qué es lo que se quiere hacer, el programador tiene que indicar cómo lo ha de hacer.
-Para ello es necesario realizar un estudio exhaustivo de todos los elementos que van a intervenir. Estos
-elementos se pueden dividir en 3 categorías:
+Una vez planteado qué es lo que se quiere hacer, el programador tiene que indicar 
+cómo lo ha de hacer. Para ello es necesario realizar un estudio exhaustivo de todos 
+los elementos que van a intervenir. Estos elementos se pueden dividir en 3 
+categorías:
 
 * __Diagramas de proceso__. 
 Hacen referencia al análisis de todos los elementos que intervienen en el
@@ -64,13 +70,15 @@ Proyecto de forma gráfica, utilizando para ello todas las herramientas existente
 		
 * __Diseño de registros y mensajes__. 
 Consiste en analizar, si los hubiera, todos los ficheros utilizados,
-indicando sus registros, nombre de campos, etc. También hay que incñuir los mensajes utilizados.
+indicando sus registros, nombre de campos, etc. También hay que incñuir los 
+mensajes utilizados.
 	
 * __Condición/es para la solución__. 
 Cuando tenemos claro qué es lo que hay que hacer, cuando analizamos qué
-herramientas o estructuras vamos a necesitar para resolver el problema, es imprescindible redactar cómo
-vamos a solucionar el problema. Si el problema tiene más de una solución se deberán plantear todas ellas, 
-optando por cuál es la solución más óptima.
+herramientas o estructuras vamos a necesitar para resolver el problema, es 
+imprescindible redactar cómo vamos a solucionar el problema. Si el problema tiene 
+más de una solución se deberán plantear todas ellas, optando por cuál es la 
+solución más óptima.
 
 
 4. Programación a la solución del problema
@@ -86,15 +94,18 @@ Plasmar en código el organigrama
 5. __Fase de edición, Puesta a punto y pruebas__
 --------------------------------------------
 
-Entendemos por edición la posibilidad de editar mi código fuente con la intención de linkarlo y obtener así
-el código objeto, que es lo que entiende el ordenador.
+Entendemos por edición la posibilidad de editar mi código fuente con la intención 
+de linkarlo y obtener así el código objeto, que es lo que entiende el ordenador.
 
-El paso siguiente es realizar la puesta a punto junto con un juego de pruebas, que recibe el nombre de juego
-de ensayo, y que consiste en someter a nuestro programa fuente a una serie de situaciones con la intención de
-buscar posibles errores.
+El paso siguiente es realizar la puesta a punto junto con un juego de pruebas, 
+que recibe el nombre de juego de ensayo, y que consiste en someter a nuestro 
+programa fuente a una serie de situaciones con la intención de buscar posibles 
+errores.
 
-Éste juego de ensayo ha de quedar perfectamente preparado para buscar, en todos los aspectos, errores. Existe
-una serie de técnicas que pueden ayudar al juego de ensayos, controlando todos los aspectos de la programación.
+Éste juego de ensayo ha de quedar perfectamente preparado para buscar, en todos 
+los aspectos, errores. Existe una serie de técnicas que pueden ayudar al juego de 
+ensayos, controlando todos los aspectos de la programación.
+
 Éstas técnicas o conjunto de pruebas reciben dos nombres:
 
 1. __Técnica de la caja blanca.__
@@ -107,13 +118,15 @@ Se basa en un minucioso examen de los procedimientos para verificar:
 	Tiene una serie de pruebas:
 
 	* __Prueba de camino básico.__
-	Se garantiza que la presente aplicación se ha ejecutado totalmente al menos una vez.
+	Se garantiza que la presente aplicación se ha ejecutado totalmente al menos 
+	una vez.
 
 	* __Prueba de estructura de control__
-	consiste en realizar pruebas que garanticen el buen uso de las estructuras condicionales, bucles y flujo de datos.
+	consiste en realizar pruebas que garanticen el buen uso de las estructuras 
+	condicionales, bucles y flujo de datos.
 	
-	Consiste en hacer un examen exhaustivo de todas las estructuras de control. Para ello habrá que distinguir entre
-	bucles simples y bucles anidados.
+	Consiste en hacer un examen exhaustivo de todas las estructuras de control. 
+	Para ello habrá que distinguir entre bucles simples y bucles anidados.
 		* __Bucles simples__
 		Analizamos todos los bucles simples tomando nota de todos los resultados.
 			* Ejecutamos saltándonos la estructura repetitiva.
@@ -123,7 +136,8 @@ Se basa en un minucioso examen de los procedimientos para verificar:
 			* Ejecutar completamente el bucle.
 
 		* __Bucles anidados__
-			* Comenzar con el bucle más interno y con el valor mínimo de los demás, analizando el resultado.
+			* Comenzar con el bucle más interno y con el valor mínimo de los demás, 
+			analizando el resultado.
 			* Progresar hacia fuera en los bucles.
 			* Probar todos los bucles para observar si se obtiene el rendimiento adecuado.
 
@@ -138,14 +152,17 @@ Se basa en un minucioso examen de los procedimientos para verificar:
 	La caja negra tiene una serie de técnicas:
 
 	* __Partición equivalente__:
-		Consiste en hacer un estudio detallado de todos los valores límite de todos los datos que intervienen en la aplicación.
+		Consiste en hacer un estudio detallado de todos los valores límite de
+		todos los datos que intervienen en la aplicación.
 
 	* __Análisis de valores límite__:
-		Consiste en analizar todos los valores límite de todas las estructuras utilizadas.
+		Consiste en analizar todos los valores límite de todas las estructuras 
+		utilizadas.
 
 	* __Prueba de comparación__:
-		Ejecutar nuestra aplicación en diferentes ordenadores con diferentes características con la intención de quie los resultados
-		sean los mismos. Se denomina también software redundante.
+		Ejecutar nuestra aplicación en diferentes ordenadores con diferentes 
+		características con la intención de quie los resultados sean los mismos. 
+		Se denomina también software redundante.
 
 
 6. Fase de documentación
@@ -159,6 +176,26 @@ Aportar ideas al proyecto.
 
 8. Conclusión
 -------------
-Documentar una aplicación es totalmente necesario. Pero son las empresas quienes determinan cómo hacerlo. Por lo tanto, no existe una forma estandarizada 
-de documentación ya que con la intención de ahorrar tiempo y espacio, muchas empresas no obligan a la documentación, o utilizan otras técnicas de documentación
-que evitan una acumulación de papeles en la empresa.
+Documentar una aplicación es totalmente necesario. Pero son las empresas quienes 
+determinan cómo hacerlo. Por lo tanto, no existe una forma estandarizada de 
+documentación ya que con la intención de ahorrar tiempo y espacio, muchas empresas 
+no obligan a la documentación, o utilizan otras técnicas de documentación que 
+evitan una acumulación de papeles en la empresa.
+
+Una vez terminado todo el proceso es necesario explotar la aplicación, es decir,
+instalar y ejecutar nuestro proyecto verificando el normal funcionamiento y 
+aprovechamiento del mismo, observando si cumple los objetivos marcados en el entorno
+donde se vaya a ejecutar la aplicación final.
+
+MANUAL DE USUARIO
+-----------------
+Se trata de un documento que pretende ser una guía de uso de nuestra aplicación.
+Conceptos como requisitos mínimos, modo de instalaciçon y desinstalación, tlf de
+contacto o ayuda online, etc. Es lo que busca el usuario de nuestra aplicación.
+
+El manual de usuario debe ser:
+* _Didáctico_
+* _Ordenado_
+* _concreto_
+* _breve_
+* _Contener datos servicio técnico_
