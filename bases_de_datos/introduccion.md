@@ -107,3 +107,131 @@ Visualizar los apellidos de los empleados pertenecientes al departamento
 		end loop;
 	end;
 
+
+Procedimientos
+--------------
+
+CREATE [OR REPLACE] 
+PROCEDURE <procedure_name> [(<param1> [IN|OUT|IN OUT] <type>, 
+                             <param2> [IN|OUT|IN OUT] <type>, ...)] 
+>IS
+>  -- Declaracion de variables locales
+>BEGIN
+>  -- Sentencias
+>[EXCEPTION]
+>  -- Sentencias control de excepcion
+> END [<procedure_name>];
+
+
+Funciones
+---------
+>CREATE [OR REPLACE]
+>FUNCTION <fn_name>[(<param1> IN <type>, <param2> IN <type>, ...)] 
+>RETURN <return_type> 
+>IS
+>  result <return_type>;
+>BEGIN
+> 
+>  return(result);
+>[EXCEPTION]
+>  -- Sentencias control de excepcion
+>END [<fn_name>];
+
+
+Variables de acoplamiento en el manejo de cursores:
+---------------------------------------------------
+la cláusula SELECT del cursor deberá seleccionar las filas de acuerdo con una
+condición. Cuando se trabaja con SQL interactivo se introducen los términos exactos
+de la condición
+
+Por ejemplo:
+> SELECT apellido
+> FROM emple
+> WHERE dept_no = 20
+
+Pero en un programa PL/SQL los términos exactos de esta condición sólamente se 
+conocen en tiempo de ejecución. Ésta circunstancia obliga a utilizar un diseño
+más abierto y las variables de acoplamiento cumplen esta función. Su forma de uso
+es:
+1. Se declara la variable como cualquier otra
+2. Se utiliza la variable en la sentencia SELECT como parte de la expresión
+
+> CURSOR <nombre_del_cursor> IS 
+> SELECT trololo FROM troll WHERE var = mi_variable_acoplamiento.
+
+Ejercicio:
+Visualizar el apellido de los empleados del departamento 20
+CREATE OR REPLACE
+PROCEDURE emp_dep_20
+IS
+	departamento int(2) := 20;
+	CURSOR emps is SELECT apellido FROM emple WHERE dept_no = departamento;
+	apellido varchar(20);
+BEGIN
+	open emps;
+	loop
+		fetch emps into apellido;
+		exit when emps%NOTFOUND;
+		dbms_output.put_line(apellido);
+	end loop;
+END emp_dep_20;
+
+Ejercicio
+Mostrar nombre departamento y numero de empleados:
+
+Ejercicio:
+Escribe un procedimiento que reciba una cadena y visualize el apellido y el numero
+de empleado de todos los empleados cuyo apellido contenga la cadena especificada.
+Al finalizar visualiza el numero de empleados mostrados.
+
+	CREATE OR REPLACE
+	PROCEDURE subcadena_empleados(subcadena VARCHAR)
+	IS
+		CURSOR emp is SELECT apellido, emp_no FROM emple WHERE INSTR(apellido, subcadena) != 0;
+		apellido varchar(20);
+		numero int(4);
+	BEGIN
+		open emp;
+		loop
+			fetch emp into apellido, numero;
+			exit when emp%NOTFOUND;
+			dbms_output.put_line(apellido || ' -> ' || numero);
+		end loop;
+	END subcadena_empleados;
+
+Ejercicio:
+Mostrar departamento y numero de empleados.
+	CREATE OR REPLACE
+	PROCEDURE empleados_departamento
+	IS
+		CURSOR dept is select dnombre, count(*) from depart, emple where emple.dept_no = depart.dept_no group by dnombre;
+		depart varchar(20);
+		empleados int(4);
+	BEGIN
+		open dept;
+		loop
+			fetch dept into depart, empleados;
+			exit when dept%NOTFOUND;
+			dbms_output.put_line(depart || ' -> ' || empleados);
+		end loop;
+	END empleados_departamento;
+
+
+Ejercicio:
+Desarrollar procedimiento que visualice apellido y decha de alta de todos los empleados
+ordenados por apellido
+	CREATE OR REPLACE
+	PROCEDURE apellido_fecha_alta
+	IS
+		CURSOR ap_fecha IS select apellido, fecha_alt from emple;
+		apellido emple.apellido%TYPE;
+		fecha emple.fecha_alt%TYPE;
+	BEGIN
+		open ap_fecha;
+		loop 
+			fetch ap_fecha INTO apellido, fecha;
+			exit when ap_fecha%NOTFOUND;
+			dbms_output.put_line(apellido || ' -> ' || fecha);
+		end loop;
+	END apellido_fecha_alta;
+	

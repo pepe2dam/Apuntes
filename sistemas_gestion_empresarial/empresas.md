@@ -332,3 +332,56 @@ Podemos destacar los siguientes tipos:
 	Empresas de capital estatal (mayoritario) y capital privado (minoritario)
 
 * __privadas__
+Una empresa privada es propiedad de inversionistas privados, y el 100% de su
+finalidad es lucrativa. Podemos destacar tres tipos de empresas:
+	* _Privadas nacionales_ el 100% del capital es del país donde está la empresa
+	* _Privadas extranjeras_ 50-50
+	* _Privadas transnacionales_ Son empresas donde el 100% del capital es extranjero,
+	están ubicadas en otro país y los beneficios van al otro país
+
+3. __Magnitud de la empresa__
+Es un tipo de clasificación que depende del tamaño de la empresa, por lo que pueden
+ser pequeñas, medianas o grandes.
+Existen varios criterios para definir el tamaño de la empresa:
+* __Magnitud financiera:__
+Pequeña, mediana o grande dependiendo de su capital.
+* __Número de empleados:__
+* __Mercado de ventas__
+Pequeña: Suele ser local
+Mediana: nacional
+Grande: internacional
+* __Producción__
+Pequeña: artesanal
+Mediana: mecanizada
+Grande: automatizadas
+* __Otros criterios__
+	* _Empresas básicas_ consideradas primordiales
+	* _Nuevas empresas_ Fabricación y manufactura de productos que no existen en el
+	país
+	* _Constitución legal_
+	SA, SL...
+	* ETC
+
+
+PLANIFICACIÓN DE FUTURO
+-----------------------
+Cuando se desea crear una empresa, es necesario realizar una visión de futuro con
+la intención de triunfo. Ésta visión de futuro exige tener en cuenta una serie de
+conceptos:
+1. __Misión de la empresa__
+Cuál va a ser nuestra misión como empresa. Se trata de dejar claramente establecido
+qué servicio se va a realizar y mantener a largo plazo.
+2. __Objetivos__
+Son el resultado que se espera obtener, y al cual va a ir enfocada la actividad.
+3. __Metas__
+Son los diferentes propósitos que se han de cumplir para obtener nuestros objetivos
+4. __Estrategias__
+Normas muy precisas que regulan una situación particula.
+5. __Programas__
+Son planes de una duración limitada que agrupan objetivos, estrategias, reglas, recursos
+y acciones para la empresa.
+6. __Presupuesto__
+
+...
+
+
