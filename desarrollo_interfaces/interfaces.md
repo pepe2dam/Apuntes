@@ -123,5 +123,40 @@ Una aplicación etá basada generalmente en 3 categorías o vistas que el usuario
 va a trabajar. Cada una de ellas tiene unos criterios de desarrollo diferentes.
 Estas vistas son:
 1. Interacción general de nuestro proyecto
+Suele ser la pantalla más utilizada de una aplicación, por tanto no se puede 
+ignorar. Ha de ser:
+* _Consistente_ en cuanto a formatos, tamaños, colores...
+* _Ordenado_
+* _Verificaciones_ para ciertas acciones sensibles.
+* _Reducir_ la cantidad de información a memorizar.
+* _Perdonar_ los errores.
+* _Deshacer_ entuertos.
+* _Eficacia_ en el diálogo.
+* _Organizar_ la geografía del formulario.
+* _Utilizar_ lenguaje conciso y significativo
+* _no cometer_ faltas de ortografía.
+* _Ayuda general_
+
 2. Interacción de entrada de datos
+Está influenciada por el manejo del teclado y ratón o pantallas táctiles. 
+
+En cuanto al teclado, existe la posibilidad de poder utilizar combinaciones de 
+teclas. El ratón permite en cuanto a la hora de meter datos utilizar menús 
+emergentes. Ambos usos se denominan "eventos" de teclado o ratón.
+
+Para la entrada de datos se necesita:
+* _Dirigir_ al usuario
+* _Minimizar_ el número de acciones en la entrada de datos
+* Ser _coherentes_ con el tamaño
+* Ser _flexible_
+* _Validar_ entrada de datos
+* _Coherencia_ de las acciones a realizar
+* _Eliminar_ entradas innecesarias
+
 3. Interacción de salida de datos
+Debe de aparecer la infomarción más significativa, según las necesidades de la
+empresa.
+* _Información_ significativa
+* no _abrumar_ al usuario
+* no _abusar_ de acrónimos...
+* formularios o ventanas auxiliares para presentar información
