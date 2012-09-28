@@ -234,4 +234,42 @@ ordenados por apellido
 			dbms_output.put_line(apellido || ' -> ' || fecha);
 		end loop;
 	END apellido_fecha_alta;
-	
+
+Ejercicio:
+Realizar un procedimiento que muestre en formato similar a las rupturas de secuencia
+los siguientes datos:
+Para cada empleado, apellido y salario.
+Para cada dept, el número de emopleados y la suma de salario de cada dept.
+Número total de empleados y la suma total de todos los salarios.
+
+CREATE OR REPLACE 
+PROCEDURE departamentos_empleados
+IS
+	CURSOR empleados IS select apellido, salario, depart.dnombre from emple inner join depart on emple.dept_no = depart.dept_no ORDER BY depart.dnombre;
+	apellido emple.apellido%TYPE;
+	salario emple.salario%TYPE;
+	departamento depart.dnombre%TYPE;
+	num_empleados number(4) := 0;
+	suma_salarios number(8) := 0;
+	total_empleados number(4) := 0;
+	total_salarios number(4) := 0;
+	buf_departamento depart.dnombre%TYPE := 'a';
+BEGIN
+	open empleados;
+		loop
+			fetch empleados into apellido, salario, departamento;
+			exit when empleados%NOTFOUND;
+			IF departamento != buf_departamento THEN
+				dbms_output.put_line('-----------');	
+				dbms_output.put_line(departamento);
+			ELSE
+			dbms_output.put_line(apellido || ' -> ' || salario);
+			END IF;
+			buf_departamento := departamento;
+			total_empleados := total_empleados + 1;
+			dbms_output.put_line(total_empleados);
+		end loop;
+	close empleados;
+END departamentos_empleados;
+/
+
