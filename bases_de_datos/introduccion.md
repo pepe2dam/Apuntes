@@ -242,7 +242,7 @@ Para cada empleado, apellido y salario.
 Para cada dept, el número de emopleados y la suma de salario de cada dept.
 Número total de empleados y la suma total de todos los salarios.
 
-CREATE OR REPLACE 
+CREATE OR REPLACE
 PROCEDURE departamentos_empleados
 IS
 	CURSOR empleados IS select apellido, salario, depart.dnombre from emple inner join depart on emple.dept_no = depart.dept_no ORDER BY depart.dnombre;
@@ -260,16 +260,22 @@ BEGIN
 			fetch empleados into apellido, salario, departamento;
 			exit when empleados%NOTFOUND;
 			IF departamento != buf_departamento THEN
-				dbms_output.put_line('-----------');	
+				dbms_output.put_line('-----------');
 				dbms_output.put_line(departamento);
+				dbms_output.put_line('-----------');
 			ELSE
-			dbms_output.put_line(apellido || ' -> ' || salario);
+				dbms_output.put_line(apellido || ' -> ' || salario);
 			END IF;
-			buf_departamento := departamento;
+			IF buf_departamento != departamento THEN
+				dbms_output.put_line('empleados '|| ' -> ' || num_empleados);
+				num_empleados := 0;
+			END IF;
 			total_empleados := total_empleados + 1;
-			dbms_output.put_line(total_empleados);
+			buf_departamento := departamento;
+			num_empleados := num_empleados + 1;
 		end loop;
 	close empleados;
+	dbms_output.put_line(total_empleados);
 END departamentos_empleados;
 /
 
