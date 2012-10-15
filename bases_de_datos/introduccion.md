@@ -279,3 +279,9 @@ BEGIN
 END departamentos_empleados;
 /
 
+Ejercicio:
+	Codificar un procedimiento que reciba como parámetros un número de departamento, 
+	un importe y un porcentaje, que suba el salario a todos los empleados del
+	departamento. La subida será el porcentaje o el importe que se indica en la 
+	llamada, el que sea más beneficioso para el empleado en cada caso. Usaremos 
+	la pseudocolumna ROWID, que identifica de manera única a cada fila en la tabla.
