@@ -320,7 +320,7 @@ Ejemplo.
 >	module module1
 >		sub cua(byval a as integer)
 >			a = 8
->			console.writeline("Valor inicial " & a ~/)
+>			console.writeline("Valor inicial " & a)
 >		end sub
 >
 >		sub main()
@@ -336,3 +336,44 @@ Ejercicio:
 >	Realizar un ejercicio, que mediante un menu me permita calcular el área del
 >	triángulo, del cuadrado, de la circunferencia y salir. Utilizando únicamente
 >	procedimientos o funciones con parámetros.
+
+
+CLASES
+======
+Para definir una clase en VB necesitamos tener claro varios apartados. 
+1. Creación de la clase
+	class xxxx
+		atributos
+		métodos
+	end class
+
+2. Generar una variable especial que cuando se define, se crea una instancia que
+permite usar los elementos de la clase. Ésta estancia usa la palabra reservada 
+"new". Existen 3 formatos para definir un objeto:
+
+	Dim objeto As nombreDeClase
+	objetos = new nombreDeClase
+
+	Dim objeto as nombreDeClase = new nombreDeClase
+
+	Dim objeto as new nombreDeClase()
+
+3. ya se puede acceder a los elementos de la clase. bastará con poner 
+objeto.metodo() u objeto.propiedad
+
+Ejercicio:
+	Realizar un programa que, usando una clase, incorporará un menú con una serie
+	de opciones como el area del triangulo, cuadrado, rombo y circunferencia,
+	cuyos cáclulos deberán ser programados en otra clase.
+
+
+AGREGAR UNA CLASE COMO FICHERO EN UN PROYECTO
+---------------------------------------------
+Consiste en seguir los siguientes pasos:
+1. Ir a nombre del proyecto > boton derecho > agregar > clase
+2. Poner nombre al fichero
+3. insertar la o las clases en el nuevo editor
+4. guardar
+
+este fichero aparecerá en el explorador de soluciones y podrá ser usado (llamar 
+a todas las clases y métodos de forma convencional) en el programa principal.
