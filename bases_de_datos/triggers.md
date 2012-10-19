@@ -119,25 +119,3 @@ anterior y posterior
 			sysdate
 		);
 	end;
-	
-	
-
-DISPARADORES DE SUSTITUCIÓN
----------------------------
-Están asociados a vistas. Se disparan cuando se intenta ejecutar un comando de 
-manipulación que afecta a la vista, como es un insert, delete o update.
-
-DISPARADORES DE SISTEMA
------------------------
-Se disparan cuando ocurre un evento en el sistema, como es un arranque o parada
-de la base de datos, entrada o salida de un usuario. También se conoce como dis
-paradores de sistema cuando se refieren a creacion, modificacion de tablas...
-
-
-WHEN
-----
-Ésta cláusula, seguida de una condición, restringe la ejecución del trigger al
-cumplimiento de la condición. Tiene algunas limitaciones:
-1. Sólo con trigger a nivel de fila (For each row)
-2. Se trata de una condición SQL
-3. No puede incluir una consulta a las mismas tablas o vistas.
