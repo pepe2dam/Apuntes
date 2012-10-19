@@ -377,3 +377,75 @@ Consiste en seguir los siguientes pasos:
 
 este fichero aparecerá en el explorador de soluciones y podrá ser usado (llamar 
 a todas las clases y métodos de forma convencional) en el programa principal.
+
+
+BIBLIOTECAS DE CLASES
+=====================
+Para definirlas será necesario realizar los siguientes pasos:
+* abrir la opción de biblioteca de clases, donde se escribirá la o las clases que
+se necesiten.
+* Build
+* Save all.
+
+Una vez diseñada la biblioteca de clases será el momento de añadirlo a nuestro 
+proyecto, ya que es un elemento externo a él, por lo que es necesario añadirla a
+nuestro proyecto.
+
+Para importar una DLL:
+1. Sobre el nombre del proyecto: "Agregar referencia" (Add reference)
+2. Examinar -> buscamos dll -> añadir (Browse)
+3. importar a nuestro código los elementos necesarios para poder utilizarla. para 
+ello utilizamos "import"
+
+
+CONSTRUCTORES
+=============
+Un constructor es un método especial que pertenece a una clase y que es llamado
+automáticamente al crear una instancia de la clase. Su sintáxis es
+
+	Sub new()
+	End Sub
+
+Acepta parámetros y no devuelve datos.
+
+Si no creamos el constructor, VB crea uno por defecto
+
+DESTRUCTORES
+============
+Permiten liberar memoria en el momento en que un objeto deja de ser usado. Se 
+crea un método especial por cada clase. Su sintáxis es.
+
+	Protected override Sub finalize()
+	end sub
+
+
+HERENCIA
+========
+Es una de las características más importantes de la POO. consiste en que una clase
+puede heredar atributos y métodos de otra. De ésta manera ahorramos código.
+
+con la herencia aparece una clasificación de clases, existiendo en un nivel 
+superior lo que se conoce como clase "base" o "superclase" y un nivel inferior 
+llamado clase derivada o sub clase.
+
+Para poder heredar en una clase se utiliza la palabra reservada "inherits". para
+poder usar herencia, hay que tener en cuenta una serie de reglas.
+
+* Una subclase puede heredar de una superclase todos los atributos y métodos
+excepto constructores y destructores. Tampoco se pueden heredar los definidos como
+private.
+* Cuando una subclase hereda un método o atributo de una superclase y el nombre
+coincide con el de algún método propìo, no se tendrá acceso a la clase heredada
+a no ser que incorpore la expresión "shadow" delante de la derivada.
+* Los atributos y métodos heredados de una superclase en una clase hija pueden ser
+a su vez heredados por clases que hereden de la clase hija. 
+
+Evitando la herencia
+--------------------
+Para evitar que una clase sea heredada, bastará con poner, delante de la palabra
+"class" , la expresión NNotInheritable"
+
+Obligando a heredar
+-------------------
+Para obligar que una clase sea heredada, se pondrá, delante de la palabra
+reservada class, "mustinherit"
