@@ -166,15 +166,14 @@ Al asociar un disparador a un evento de sistema, debemos indicar el momento del
 disparo. Unos sólo pueden indicar antes, otros despues y otros admiten las dos 
 posibilidades.
 
-|__EVENTOS__    |     __MOMENTO__    | __DESCRIPCION__             |
-|_______________|____________________|_____________________________|
-|STARTUP        |     AFTER          |  Arrancar la base de datos  |
-|SHUTDOWN       |     BEFORE         |  Apagar la base de datos    |
-|LOGON          |     AFTER          |  Usuario conecta a la db    |
-|LOFOFF         |     BEFORE         | Usuario desconecta de la db |
-|SERVERERROR    |     AFTER          |  Error en el servidor       |
-|CREATE         |    AFTER/BEFORE    |  Crear                      |
-|DROP           |    AFTER/BEFORE    |  Eliminar objeto            |
+__EVENTOS__    |     __MOMENTO__    | __DESCRIPCION__             
+STARTUP        |     AFTER          |  Arrancar la base de datos  
+SHUTDOWN       |     BEFORE         |  Apagar la base de datos    
+LOGON          |     AFTER          |  Usuario conecta a la db    
+LOFOFF         |     BEFORE         | Usuario desconecta de la db 
+SERVERERROR    |     AFTER          |  Error en el servidor       
+CREATE         |    AFTER/BEFORE    |  Crear                      
+DROP           |    AFTER/BEFORE    |  Eliminar objeto            
 
 PL/SQL dispone de algunas funciones que permiten acceder a los atributos del evento
 de disparo. Son:
@@ -186,3 +185,12 @@ Ejercicio:
 	Crear un disparador que controle las conexiones de los usuarios a la base de 
 	datos. Vamos a introducir nombre de usuario, fecha y hora del evento y la 
 	operación conexión que realiza el usuario.
+
+	1º creamos la tabla.
+	Create table control_conexiones(
+		usuario varchar2(10), 
+		momento timestamp,
+		evento varchar2(15));
+
+	2º Creamos el trigger
+	
