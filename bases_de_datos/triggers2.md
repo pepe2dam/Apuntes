@@ -194,4 +194,43 @@ Ejercicio:
 		evento varchar2(15));
 
 	2º Creamos el trigger
-	
+	create or replace
+	trigger control_conn
+	AFTER logon on database
+	begin
+		insert into control_conexiones(usuario, momento, evento) 
+		values(ORA_LOGIN_USER, systimestamp, ORA_SYSEVENT);
+	end;
+
+Los disparadores son una herramienta útil pero su uso indiscriminado degrada el
+uso de una base de datos.
+
+
+ACTIVAR, DESACTIVAR DISPARADORES
+================================
+Cuando creamos un disparador, siempre está activado, pero se puede variar esta
+situación mediante
+
+	ALTER TRIGGER nombredeltrigger
+	DISABLE;
+
+Con ésta sentencia, desactivamos. Para volverlo a activar
+
+	ALTER TRIGGER nombredeltrigger
+	ENABLE;
+
+Para volver a compilarlo
+
+	ALTER TRIGGER nombredeltrigger
+	COMPILE;
+
+Para eliminar
+
+	DROP TRIGGER nombredetrigger;
+
+
+VISTAS IMPORTANTES CON INFORMACIÓN SOBRE LOS TRIGGER
+====================================================
+
+dba_trigger
+user_trigger
