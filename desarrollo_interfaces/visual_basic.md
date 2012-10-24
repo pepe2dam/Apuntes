@@ -28,6 +28,7 @@ Una variable es una zona de memoria en la que se almacena un valor.
 .Net tiene variables explícitas e implícitas:
 	1.1. _Explícitas_ Variables que, de forma deliverada, es definida por el usuario
 	para ser utilizada. La síntáxis para definir una variable explícita es:
+	
 	> Dim
 	> Private
 	> Public
@@ -35,8 +36,8 @@ Una variable es una zona de memoria en la que se almacena un valor.
 	> Static
 	> Friend
 	> Protected
-	donde: 
-	* Ámbito:
+
+	donde el ámbito puede ser:
 		* Dim: Se utiliza para definir variables locales a un procedimiento o 
 		función
 		* Private: Define variables locales a nivel bloque, es decir, a nivel 
@@ -50,9 +51,9 @@ Una variable es una zona de memoria en la que se almacena un valor.
 		al nuestro
 		* Protected: variable protegida diseñada para ser usada en una clase
 		concreta o en las clases que heredan de ella.
-	* nombre es el nombre que se le dará a la variable.
-	* As tipo se refiere al tipo de dato que vamos a definir
-	* valor inicial
+	nombre es el nombre que se le dará a la variable.
+	As tipo se refiere al tipo de dato que vamos a definir
+	valor inicial
 	
 	1.2. _Implícitas_ VB.NET no obliga a declarar explícitamente las variables.
 	Cuando VB define variables automáticamente del tipo valor que se le asigna a 
@@ -445,7 +446,33 @@ Evitando la herencia
 Para evitar que una clase sea heredada, bastará con poner, delante de la palabra
 "class" , la expresión NNotInheritable"
 
-Obligando a heredar
+Obligando a heredar (Clases abstractas)
 -------------------
 Para obligar que una clase sea heredada, se pondrá, delante de la palabra
 reservada class, "mustinherit"
+
+NAMESPACES
+==========
+Se trata de un mecanismo que permite organizar, formando espacios independientes,
+todas las clases que se pueden utilizar. Se trata, por tanto, de simplificar y
+organizar a modo de paquetes, el acceso a clases. Su sintáxis es:
+
+	NameSpace primero
+		
+		class uno
+		end class
+
+		class dos
+		end class
+
+	End NameSpace
+
+	NameSpace segundo
+
+		class tres
+		end class
+
+		class cuatro
+		end class
+
+	end NameSpace

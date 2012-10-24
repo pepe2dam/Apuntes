@@ -133,3 +133,44 @@ Suponiendo que disponemos de la vista dep
 
 Crear un disparador que permita realizar actualizaciones en la tabla depart a 
 partir de esta vista. 
+
+DISPARADORES DE SITEMA
+======================
+Se disparan al ocurrir sucesos en el sistema o al ejecutarse sentencias DDL (data
+definition language). Su sintáxis es la siguiente:
+
+	CREATE OR REPLACE
+	TRIGGER nombre_de_trigger
+	{BEFORE|AFTER} OF
+	<lista eventos definicion>
+	<lista eventos sistema>
+	ON {DATABASE|SCHEMA}
+	[WHEN (condicion)]
+	BEGIN
+		<CUERPO DEL TRIGGER>
+	END;
+
+__ON DATABASE__ se disparará siempre que ocurra el evento de disparo, sea en nuestro
+esquema o no.
+
+__ON SCHEMA__ hace referencia a aquel al que pertenece el trigger, pero se 
+puede determinar otro esquema conociendo el nombre de la siguiente manera:
+
+	ON nombre_de_esquema.SCHEMA
+
+<lista de eventos definicion> Puede incluir uno o más eventos DDL separados por
+OR. <lista eventos sistema> puede coexistir con definicion.
+
+
+Al asociar un disparador a un evento de sistema, debemos indicar el momento del 
+disparo. Unos sólo pueden indicar antes, otros despues y otros admiten las dos 
+posibilidades.
+
+|__EVENTOS__    |     __MOMENTO__    | __DESCRIPCION__             |
+|STARTUP        |     AFTER          |  Arrancar la base de datos  |
+|SHUTDOWN       |     BEFORE         |  Apagar la base de datos    |
+|LOGON          |     AFTER          |  Usuario conecta a la db    |
+|LOFOFF         |     BEFORE         | Usuario desconecta de la db |
+|SERVERERROR    |     AFTER          |  Error en el servidor       |
+|CREATE         |    AFTER/BEFORE    |  Crear                      |
+|DROP           |    AFTER/BEFORE    |  Eliminar objeto            |
