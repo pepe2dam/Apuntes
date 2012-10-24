@@ -167,6 +167,7 @@ disparo. Unos sólo pueden indicar antes, otros despues y otros admiten las dos
 posibilidades.
 
 __EVENTOS__    |     __MOMENTO__    | __DESCRIPCION__             
+---------------|--------------------|-----------------------------
 STARTUP        |     AFTER          |  Arrancar la base de datos  
 SHUTDOWN       |     BEFORE         |  Apagar la base de datos    
 LOGON          |     AFTER          |  Usuario conecta a la db    
