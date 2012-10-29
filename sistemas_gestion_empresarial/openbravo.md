@@ -90,4 +90,3 @@ OpenBravo (En adelante OB) necesita:
 Variables de entorno:
 ---------------------
 Equipo > propiedades > confi. avanzada > variables de entorno.
-
