@@ -26,3 +26,5 @@ datos. El WF se encuentra en:
 
 3. Condiciones de pago
 	tipo de pago que va a usar el proveedor.
+
+
