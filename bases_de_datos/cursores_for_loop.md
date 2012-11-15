@@ -22,12 +22,15 @@ ejecuta un FETCH implicito, cuyo resultado quedara en nombreVariableReg.
 TABLAS ANIDADAS:
 ================
 
-Son estructuras similares a los VARRAYS ,  pero con la diferencia de que no tienen longitud fija.
+Son estructuras similares a los VARRAYS ,  pero con la diferencia de que no tienen 
+longitud fija.
+
 Para crearlas:
 1.	Se define el tipo en la sección declarativa según el formato:
 
 	TYPE nombre_tipotablaanidada IS TABLE OF tipoelementos [NOTNUL];
-2.	Declaramos e inicializamos las variables, igual que en el caso de los VARRAY , pero en este caso las tablas anidadas permiten inicializar la variable con una lista incompleta o vacía:
+2.	Declaramos e inicializamos las variables, igual que en el caso de los VARRAY,
+pero en este caso las tablas anidadas permiten inicializar la variable con una lista incompleta o vacía:
 Nombre_variable   := nombre_tipovarray();
                 Y añadir filas nuevas a la variable ya inicializada usando el métodoEXTEND  según el formato:
 Nombre_variable_de-tabla_anidada.EXTEND;

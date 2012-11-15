@@ -133,7 +133,6 @@ Tiene que tener lo siguiente:
 Randomize() // limpia el buffer de aleatorios
 numero secreto = int(Rnd * 10) + 1
 
-
 * Permitir jugar 1 ó 2 jugadores
 * Como consiste en adivinar un numero entre un rango, cada vez que se produzca 
 un error se contabilizará de forma gráfica.

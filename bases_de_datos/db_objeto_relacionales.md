@@ -84,3 +84,24 @@ USER_VARRAYS obtiene información de las tablas que tienen columnas varrays.
 Ejercicio:
 Hacer un bucle que muestre los nombres y teléfonos de la tabla agenda y devuelve
 el número de elementos del VARRAY
+
+
+Ejercicio:
+Crear un tipo con nombre t_alumnos con 4 atributos. 1 del tipo persona y 3 que 
+indican las notas de la 1ª, 2ª y 3ª evaluación. Después crea un bloque PLSQL e 
+inicializa un objeto de ese tipo
+
+### MÉTODOS
+Se declaran de la siguiente manera:
+	
+	member procedure set_atributo (c varchar2(2));
+	member procedure get_atributo return varchar2;
+
+Para el constructor:
+	
+	member procedure constructor return self as result;
+
+Ejemplo:
+Definir un tipo rectángulo con 3 atributos y un constructor.
+
+

@@ -46,3 +46,20 @@ forma rápida.
 
 ## Categoría de impuestos
 
+
+## UPC/EAN
+* __Universal Product code__
+Tiene la siguiente forma:
+1||12345||12345||1
+Consta de 12 dígitos, y tiene la siguiente nomenclatura:
+	* el 1º es un dígito de sistema
+	* los 5 primeros a la empresa
+	* los 5 siguientes se refieren al artículo
+	* El último es de control.
+
+* __European Article Number__
+1||123412||123412||
+Consta de 13 dígitos. Su nomenclatura es la siguiente.
+	* los 2 primeros, son el país
+	* los 5 siguientes, empresa
+	* los 6 siguientes producto
