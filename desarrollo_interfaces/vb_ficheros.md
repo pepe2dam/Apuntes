@@ -57,10 +57,11 @@ Implica tratar los caracteres a modo de flujo de bytes. La sintáxis sería la s
 
 StreamReader proporciona una serie de métodos que permiten trabajar con el texto.
 Son los siguientes:
-* Close() :: Cierra el fichero
-* 
-* 
-* 
+* Close()    :: Cierra el fichero
+* Peek()     :: Permite tratar el fichero a modo de EOF.
+* Read()     :: Lee el siguiente caracter del flujo
+* ReadLine() :: Lee hasta EOL
+* ReadToEnd():: Lee hasta EOF
 
 ### Tratando los caracteres como texto: StringReader
 
